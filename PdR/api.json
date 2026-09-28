@@ -1,0 +1,16 @@
+{
+    "MAC" : {
+        "Name" : "R1",
+        "Protocolos" : ["OSPF", "STP", "IEGRP"],
+        "VLANs" : {
+            "VL1" : {
+                "Ports" : [8080],
+                "Policies" : "Voice",
+                "ET": true,
+                "IP": "192.168.10.68",
+                "SSH": true
+               } 
+            },
+        "Status" : "Online"
+    }
+}
